@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class Answer extends StatelessWidget {
   final VoidCallback selectHandler;
   final String answerText;
+  final int score;
 
-  Answer(this.selectHandler, this.answerText);
+  Answer(this.selectHandler, this.answerText, this.score);
 
   @override
   Widget build(BuildContext context) {
